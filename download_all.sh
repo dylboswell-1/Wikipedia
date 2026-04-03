@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Wikipedia dump directory
-BASE_URL="https://dumps.wikimedia.org/other/mediawiki_history/2026-01/enwiki/"
+BASE_URL="https://dumps.wikimedia.org/other/mediawiki_history/2026-02/enwiki/"
 
 # Where the files will be saved
 OUT_DIR="./wiki_dumps"
