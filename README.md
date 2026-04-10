@@ -84,5 +84,4 @@ bash decompress.sh
 smb://filersmb.chapman.edu/dpt/wikimedia/Data
 
 # run pipeline
-bash download_all.sh
-bash decompress.sh
+bash download_and_decompress.sh
