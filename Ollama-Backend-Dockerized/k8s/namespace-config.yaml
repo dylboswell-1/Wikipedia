@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ollama-backend
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ollama-config
+  namespace: ollama-backend
+data:
+  OLLAMA_HOST: "http://ollama:11434"
+  OLLAMA_TIMEOUT: "300"
+  ENVIRONMENT: "production"
